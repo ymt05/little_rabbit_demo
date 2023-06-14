@@ -1,0 +1,315 @@
+body {
+    background-color: #f6f6f6;
+}
+.center-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*左侧边栏*/
+.aside {
+    width: 224px;
+    height: 1120px;
+    background-color: #ffffff;
+}
+
+.public {
+    margin-top: 26px;
+    padding: 0 0 26px 60px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.public h4 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.public a {
+    display: block;
+    font-size: 14px;
+    padding-top: 15px;
+    color: #666666;
+}
+
+.public a:hover {
+    color: #27ba9b;
+
+}
+
+.public a:hover::before {
+    display: inline-block;
+    content: '';
+    width: 6px;
+    height: 7px;
+    background-color: #27ba9b;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+/*右边内容*/
+.overflew {
+    position: relative;
+    display: flex;
+    width: 996px;
+    height: 132px;
+    background-color: #27ba9b;
+    margin-bottom: 20px;
+    line-height: 132px;
+}
+
+.overflew .user{
+    margin-left: 60px;
+}
+
+.overflew .user img {
+    width: 85px;
+    height: 86px;
+    border-radius: 50%;
+    background-size: contain;
+    vertical-align: middle;
+}
+
+.overflew .user h3 {
+    float: right;
+    font-size: 18px;
+    margin-left: 26px;
+    color: #ffffff;
+}
+
+.set {
+    position: absolute;
+    top: 35px;
+    right: 53px;
+    width: 404px;
+    height: 61px;
+
+}
+
+.set a {
+    float: left;
+    display: block;
+    width: 64px;
+    height: 61px;
+
+    margin-right: 106px;
+}
+
+.set a:last-child  {
+    margin: 0;
+}
+.set  i {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.set .huiyuan {
+    background: url("../uploads/-e-huiyuan.png") no-repeat 16px 0;
+}
+
+.set .shezhi {
+    background: url("../uploads/-e-shezhi.png") no-repeat 16px 0;
+}
+.set .didian {
+    background: url("../uploads/-e-didian.png") no-repeat 21px 0;
+}
+
+/*我的订单头部*/
+.main .my-order {
+    width: 996px;
+
+
+}
+.main .my-order .hd {
+    width: 996px;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.main .my-order .hd h2 {
+    display: inline-block;
+    width: 77px;
+	height: 19px;
+	font-size: 19px;
+    line-height: 60px;
+    font-weight: normal;
+    color: #333333;
+    margin-left: 12px;
+}
+
+.main .my-order .hd a {
+    line-height: 60px;
+}
+
+.main .my-order .bd {
+    width: 996px;
+    padding-bottom: 1px;
+    background-color: #ffffff;
+}
+
+/*内容*/
+.main .my-order .bd ul li {
+    margin-left: 12px;
+    margin-bottom: 20px;
+
+    width: 971px;
+    height: 137px;
+    border: 2px solid #f4f4f4;
+}
+
+.my-order .bd .product img {
+    float: left;
+    width: 107px;
+    height: 107px;
+    margin: 12px;
+}
+
+.my-order .bd .product .text {;
+    float: left;
+    line-height: 108px;
+}
+
+.my-order .bd .product .text p {
+    width: 214px;
+	height: 15px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333333;
+    margin-bottom: 10px;
+}
+
+.my-order .bd .product .text span {
+    width: 189px;
+	height: 14px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #999999;
+}
+
+.my-order .bd .state {
+    float: left;
+    width: 42px;
+	height: 14px;
+    margin: 60px 81px 62px 127px;
+}
+
+.my-order .bd .state span {
+	font-size: 14px;
+	font-weight: normal;
+	color: #e05e30;
+}
+
+.my-order .bd .pay {
+    float: left;
+    width: 196px;
+    height: 136px;
+    text-align: center;
+    line-height: 12px;
+    border-left: 2px solid #f4f4f4;
+    border-right: 2px solid #f4f4f4;
+    padding:40px 13px 40px 13px;
+}
+
+.my-order .bd .pay span {
+    width: 47px;
+	height: 11px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #9a2e1f;
+}
+
+.my-order .bd .pay p {
+	height: 14px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+    margin: 5px
+}
+
+
+.my-order .bd .action .button {
+    float: left;
+    width: 100px;
+    height: 31px;
+    background-color: #27ba9b;
+    color: #ffffff;
+    text-align: center;
+    line-height: 31px;
+    margin: 26px 35px 15px 41px;
+}
+
+.my-order .bd .action span {
+    display: inline-block;
+    width: 176px;
+    height: 14px;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.my-collection  {
+    width: 996px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.my-collection .hd {
+    border-bottom: 2px solid #f4f4f4;
+}
+.my-collection .hd h2 {
+    display: inline-block;
+    width: 78px;
+	font-size: 19px;
+	font-weight: normal;
+	color: #333333;
+    margin: 20px 0 20px 11px;
+}
+
+.my-collection .bd {
+    width: 996px;
+    height: 330px;
+    background-color: #ffffff;
+
+}
+
+.my-collection .bd ul li .images {
+    width: 184px;
+    height: 184px;
+    margin: 8px 29px 0 29px;
+    background-color: #ffffff;
+
+
+}
+.my-collection .bd ul li {
+    float: left;
+    width: 242px;
+    height: 304px;
+    margin-right: 8px;
+    vertical-align: middle;
+    text-align: left;
+    margin-top: 22px;
+}
+
+.my-collection .bd ul li:last-child {
+    margin-right: 0;
+}
+
+.my-collection .bd ul li .brief {
+    height: 87px;
+    margin-left: 30px;
+}
+
+.my-collection .bd ul li .brief span {
+	font-size: 22px;
+	font-weight: normal;
+	color: #9a2e1f;
+}
+
+.my-collection .bd ul li .brief span i {
+    font-size: 17px;
+}
