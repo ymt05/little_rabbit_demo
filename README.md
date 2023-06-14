@@ -1,2 +1,2 @@
-# little_rabbit_demo
-小兔鲜购物商城-pc
+# 小兔鲜购物商城-pc端静态页面
+
